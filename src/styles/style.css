@@ -1,0 +1,12 @@
+@import url(header.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Quicksand", sans-serif;
+
+}
+body{
+    background-color: #FFFEFC;
+}
