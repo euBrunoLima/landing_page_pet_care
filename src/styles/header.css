@@ -5,7 +5,7 @@ header{
     margin: 1.8vh auto 0vh auto;
     background-color: #317773;
     border-radius: 10px;
-    
+
 }
 
 .logo{
@@ -53,7 +53,13 @@ a{
 }
 
 #mobile_menu{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;    
 }
 
 
@@ -100,7 +106,7 @@ a{
     left: -1px;
 }
 
-/* Estados iniciais */
+
 #hamburguer_menu span:nth-child(1) {
     top: 0;
 }
@@ -125,21 +131,16 @@ a{
         display: block;
     }
 
-    #mobile_menu.active{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        
-    }
    #nav_list_mobile{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 12px;
         list-style: none;
-        
+    }
 
+    #mobile_menu.active{
+        max-height: 250px;
     }
 
     .login-mobile{
@@ -147,12 +148,12 @@ a{
         align-items: center;
         gap: 10px;
         margin: 5px 0px 15px 0px;
-
     }
+
     .login-mobile .cadastrar{
         background-color: #F5A52C;
         border-radius: 8px;
-        
+        padding: 10px;
     }
     
  
