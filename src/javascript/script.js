@@ -3,7 +3,6 @@ const mobile_menu = document.getElementById('mobile_menu')
 const btn_mobile_header = document.getElementById('nav_list_mobile')
 const login_mobile = document.querySelector('.login-mobile')
 
-console.log(login_mobile);
 
 function showMenu(){
     hamburguer_menu.classList.toggle('active');
@@ -15,3 +14,5 @@ function showMenu(){
 
 
 }
+
+console.log(document.querySelectorAll('#cta .title span').clientHeight)

@@ -1,11 +1,12 @@
 header{
     position: sticky;
+    top: 0;
+    z-index: 100;
     width: 95%;
     height: auto;
     margin: 1.8vh auto 0vh auto;
     background-color: #317773;
     border-radius: 10px;
-
 }
 
 .logo{
@@ -15,7 +16,7 @@ header{
     /* padding: 0; */
 }
 #menu_header{
-    padding: 10px 0px;
+    padding: 10.8px 0px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,13 +45,25 @@ header{
     padding: 10px;
     border-radius: 10px;
 }
-
 a{
     text-decoration: none;
     color: white;
     font-weight: 600;
     padding: 5px;
+    transition: color .1s ease-in;
 }
+
+.nav-item.active a{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    text-decoration-color: #F5A52C;
+}
+.nav-item a:hover{
+    color: #c9c9c9;
+}
+
+
 
 #mobile_menu{
     display: flex;

@@ -1,0 +1,272 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 1.8vh - 62px);
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+
+}
+
+#cta{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 5%;
+    flex-basis: 58%;
+    
+}
+#cta .title{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 700;
+    max-width: 80%;
+}
+
+#cta .title span{ 
+    color: #F5A52C;
+    background: linear-gradient(90deg, #FFEB00, #FDC731);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.paw-icon{
+    margin-bottom: 13px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(10deg);
+    vertical-align: bottom;
+    
+}
+
+
+#cta .description{
+    /* max-width: 600px; */
+    max-width: 75%;
+    font-size: 1.1rem;
+    font-weight: 450;
+}
+
+#cta-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 14px;
+}
+
+#cta-buttons a{
+    padding: 0;
+    width: 154px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#cta-buttons a:first-child,
+.login .cadastrar{
+    background-color: #F5A52C;
+    transition: background .2s ease-in;
+   
+}
+
+#cta-buttons a:first-child:hover,
+.login .cadastrar:hover{
+    background-color: #f5b92c;
+    box-shadow: none;
+}
+
+
+#cta-buttons a:last-child{
+    background-color: #173836;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 2px;
+    transition: background .2s ease-in;
+
+}
+
+#cta-buttons a:last-child:hover{
+    background-color: #1e4a47;
+    box-shadow: none;
+}
+
+#cta #info_box{
+    display: flex;
+    gap: 70px;
+    font-weight: 600;
+    margin-top: calc(44px - 32px);
+}
+
+#cta #info_box h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #173836;
+
+}
+
+#cta .social-media-buttons{
+    display: flex;
+    gap: 17px;
+    margin-top: calc(44px - 32px);
+
+}
+#cta .social-media-buttons a img{
+    width: 45px;
+    height: 45px;
+    filter: drop-shadow(1px 1px 8px  rgba(0, 0, 0, 0.21)) 
+
+}
+#cta .social-media-buttons a{
+    padding: 0px;
+}
+
+
+#home .shape{
+    position: absolute;
+    bottom: -231px;
+    right: -189px;
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    background-color: #FDC731;
+    z-index: 1;
+}
+
+#home .shape.shape2{
+    background-color: #FFD55F;
+    height: 700px;
+    width: 700px;
+    bottom: -186px;
+    right: -143px;
+}
+
+#home #feedback_home{
+    position: absolute;
+    bottom: 10%;
+    right: 500px;
+    z-index: 2;
+    flex-direction: column;
+    gap: 7px;
+    display: flex;
+    width: 214px;
+    min-height: 135px;
+    border-radius: 25px;
+    padding: 14px;
+    background-color: #317773;
+    color: #fff;
+    z-index: 6;
+    box-shadow: 2px 2px 10px #17383664;
+}
+
+#feedback_home .comment-header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.perfil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.comment-header .name-stars{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    width: 100%;
+    font-weight: 500;
+    font-size: 17px;
+}
+.comment-header .name-stars img{
+    width: 16px;
+    height: 16px;
+    filter: brightness(1.1);
+}
+
+#feedback_home hr{
+    opacity: 0.7;
+    width: 95%;
+    margin: 0px auto;
+}
+
+#feedback_home .comment{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0px 5px;
+}
+
+
+#banner{
+    position: relative;
+    flex-basis: 42%;
+    overflow: hidden;
+}
+
+
+#banner #img-dog img:first-child{
+    position: absolute;
+    bottom: -10px;
+    right: 60px;
+    z-index: 2;
+    transform: scale(1.2);
+    object-fit: cover;
+}
+
+
+
+#home .paw-dog-banner1{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    z-index: 5;
+    top: 10%;
+    right: 40%;
+    transform: rotate(40deg);
+}
+
+.paw-dog-banner2{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    z-index: 5;
+    right: 20px;
+    bottom:250px;
+    transform: rotate(160deg);
+    filter: opacity(0.4);
+
+}
+
+.paw-dog-banner3{
+    position: absolute;
+    height: 50px;
+    width: 53px;
+    z-index: 5;
+    right: 160px;
+    bottom:495px;
+    filter: opacity(0.4);
+    transform: rotate(-10deg);
+
+}
+.bone-dog-banner{
+    position: absolute;
+    height: 105px;
+    width: 105px;
+    z-index: 5;
+    bottom: 12rem;
+    right: 30rem;
+    filter: opacity(0.6);
+
+}
+
+#faixa{
+    height: 60px;
+    width: 100%;
+    background-color: #317773;
+}
