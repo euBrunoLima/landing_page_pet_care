@@ -18,7 +18,8 @@
     
 }
 #cta .title{
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: clamp(35px, 12vw, 4rem);
     line-height: 1.2;
     font-weight: 700;
     max-width: 80%;
@@ -27,6 +28,7 @@
 #cta .title span{ 
     color: #F5A52C;
     background: linear-gradient(90deg, #FFEB00, #FDC731);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -45,7 +47,7 @@
     /* max-width: 600px; */
     max-width: 75%;
     font-size: 1.1rem;
-    font-weight: 450;
+    font-weight: 500;
 }
 
 #cta-buttons{
@@ -265,8 +267,103 @@
 
 }
 
-#faixa{
-    height: 60px;
-    width: 100%;
-    background-color: #317773;
+@media screen and (max-width: 1260px) {
+    #banner,
+    .shape, .shape.shape2,
+    .paw-dog-banner1, .paw-dog-banner2, .paw-dog-banner3,
+    .bone-dog-banner,
+    #home #feedback_home
+    {
+        display: none;
+    }
+
+    #home{
+        padding: 2% 4.5%;
+    }
+    #cta{
+        flex-basis: 100%;
+        align-items: center;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    #cta .title{
+        max-width: 100%;
+        /* margin: 0px auto ; */
+    }
+    /* #cta .title img{
+        display: none;
+    } */
+
+    #cta .description{
+        max-width: 90%;
+        
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    #cta .title{
+        /* font-size: 3.2rem; */
+        margin-top: 6%;
+    }
+
+    #cta .description{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #cta #info_box{
+        margin-top: 12px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .title img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) and (max-height: 960px) {
+    #home{
+        flex-direction: column;
+
+    }
+
+    #cta .title{
+        /* font-size: 2.8rem; */
+        max-width: 80%;
+        /* font-family: 'ADLaM Display'; */
+    }
+    #cta .title img{
+        display: none;
+    }
+    #cta .description{
+        max-width: 95%;
+        font-size: 1rem;
+    }
+    #home .paw-dog-banner1{
+        display: block;
+        width: 40px;
+        height: 40px;
+        right: 50px;
+        top: 50px;
+        transform: rotate(-130deg);
+    }
+
+    #home .paw-dog-banner3{
+        display: block;
+        width: 40px;
+        height: 40px;
+        top: 220px;
+        left: 60px;
+        transform: rotate(40deg);
+
+    }
+
+    
 }
