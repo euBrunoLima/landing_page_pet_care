@@ -19,7 +19,8 @@
 }
 #cta .title{
     /* font-size: 4rem; */
-    font-size: clamp(35px, 12vw, 4rem);
+    position: relative;
+    font-size: clamp(25px, 12vw, 4rem);
     line-height: 1.2;
     font-weight: 700;
     max-width: 80%;
@@ -47,17 +48,19 @@
     /* max-width: 600px; */
     max-width: 75%;
     font-size: 1.1rem;
+    font-size: clamp(0.8rem, 8vw, 1.1rem);
+
     font-weight: 500;
 }
 
-#cta-buttons{
+#cta_buttons{
     display: flex;
     align-items: center;
     gap: 20px;
     font-size: 14px;
 }
 
-#cta-buttons a{
+#cta_buttons a{
     padding: 0;
     width: 154px;
     height: 40px;
@@ -65,21 +68,21 @@
     line-height: 40px;
 }
 
-#cta-buttons a:first-child,
+#cta_buttons a:first-child,
 .login .cadastrar{
     background-color: #F5A52C;
     transition: background .2s ease-in;
    
 }
 
-#cta-buttons a:first-child:hover,
+#cta_buttons a:first-child:hover,
 .login .cadastrar:hover{
     background-color: #f5b92c;
     box-shadow: none;
 }
 
 
-#cta-buttons a:last-child{
+#cta_buttons a:last-child{
     background-color: #173836;
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
@@ -88,7 +91,7 @@
 
 }
 
-#cta-buttons a:last-child:hover{
+#cta_buttons a:last-child:hover{
     background-color: #1e4a47;
     box-shadow: none;
 }
@@ -116,7 +119,8 @@
 #cta .social-media-buttons a img{
     width: 45px;
     height: 45px;
-    filter: drop-shadow(1px 1px 8px  rgba(0, 0, 0, 0.21)) 
+    filter: drop-shadow(1px 1px 8px  rgba(0, 0, 0, 0.21));
+    object-fit: cover;
 
 }
 #cta .social-media-buttons a{
@@ -256,6 +260,10 @@
     transform: rotate(-10deg);
 
 }
+.paw-dog-banner4,
+.paw-dog-banner5{
+    display: none;
+}
 .bone-dog-banner{
     position: absolute;
     height: 105px;
@@ -292,22 +300,16 @@
 @media screen and (max-width: 750px){
     #cta .title{
         max-width: 100%;
-        /* margin: 0px auto ; */
     }
-    /* #cta .title img{
-        display: none;
-    } */
 
     #cta .description{
         max-width: 90%;
-        
     }
 }
 
 @media screen and (max-width: 750px){
 
     #cta .title{
-        /* font-size: 3.2rem; */
         margin-top: 6%;
     }
 
@@ -339,31 +341,43 @@
         max-width: 80%;
         /* font-family: 'ADLaM Display'; */
     }
-    #cta .title img{
+    #cta .title img:first-child{
         display: none;
     }
     #cta .description{
         max-width: 95%;
         font-size: 1rem;
     }
-    #home .paw-dog-banner1{
+    #home .paw-dog-banner5{
+        position: absolute;
         display: block;
         width: 40px;
         height: 40px;
-        right: 50px;
-        top: 50px;
+        right: 0;
+        top: 0;
         transform: rotate(-130deg);
     }
 
-    #home .paw-dog-banner3{
+    .title .paw-dog-banner4{
+        position: absolute;
         display: block;
         width: 40px;
         height: 40px;
-        top: 220px;
-        left: 60px;
+        bottom: 0;
+        left: 0;
         transform: rotate(40deg);
 
     }
+
+    @media screen and (max-width: 330px) {
+        #cta_buttons{
+            flex-direction: column;
+        }
+        #cta #info_box{
+            display: none;
+        }
+    }
+
 
     
 }
