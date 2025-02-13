@@ -1,5 +1,7 @@
 @import url(header.css);
 @import url(home.css);
+@import url(sobre.css);
+@import url(cta_page.css);
 
 *{
     padding: 0;
@@ -13,7 +15,18 @@ body{
 }
 
 section{
+    min-height: 100dvh;
+    min-width: 100%;
     padding: 28px 4.5%;
+}
+
+.section-title{
+    font-family: 'ADLaM Display';
+    color: #173836;
+}
+.section-title > span{
+    font-family: 'ADLaM Display';
+    color: #FDC731;
 }
 
 .btn-default{
@@ -30,3 +43,4 @@ section{
     width: 100%;
     background-color: #317773;
 }
+
