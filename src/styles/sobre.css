@@ -1,0 +1,56 @@
+#sobre{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#about_us{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 50px;
+    margin-top: 5%;
+    /* border: 1px solid; */
+}
+#about_us > h1,
+#about_us > h1 > span{
+    font-size: clamp(25px, 12vw, 3.125rem);
+    line-height: 50px;
+}
+
+#about_us #about_description{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 74%;
+    font-weight: 500;
+}
+
+#about_us #cta_info_about{
+    max-width: 80%;
+    height: 133px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+#sobre #about-gallery{
+    display: flex;
+    flex-basis: 50%;
+    border: 1px solid;
+    margin-top: 5%;
+    
+}
+
+#about_gallery .side1 div,
+#about_gallery .side2 div{
+
+    background-color: #D9D9D9;
+
+}
+
+
+
+
+
+
