@@ -18,7 +18,6 @@
     
 }
 #cta .title{
-    /* font-size: 4rem; */
     position: relative;
     font-size: clamp(25px, 12vw, 4rem);
     line-height: 1.2;
@@ -45,7 +44,6 @@
 
 
 #cta .description{
-    /* max-width: 600px; */
     max-width: 75%;
     font-size: 1.1rem;
     font-size: clamp(0.8rem, 8vw, 1.1rem);
@@ -274,6 +272,14 @@
     filter: opacity(0.6);
 
 }
+@media screen and (max-height: 1300px) and (max-width: 1250px) {
+    #home{
+        min-height: 100%;
+        margin-bottom: 50px;
+    }
+
+    
+}
 
 @media screen and (max-width: 1260px) {
     #banner,
@@ -337,9 +343,8 @@
     }
 
     #cta .title{
-        /* font-size: 2.8rem; */
         max-width: 80%;
-        /* font-family: 'ADLaM Display'; */
+        
     }
     #cta .title img:first-child{
         display: none;
@@ -378,6 +383,7 @@
         }
     }
 
+    
 
     
 }
