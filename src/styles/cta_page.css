@@ -1,0 +1,7 @@
+.cta-under-home{
+    min-height: 200px;
+    width: 87%;
+    margin: min(10%, 196px) auto 50px auto;
+    border-radius: 30px;
+    background-color: #A9C7C2;
+}
