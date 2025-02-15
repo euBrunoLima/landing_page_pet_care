@@ -1,6 +1,6 @@
 #sobre{
     display: flex;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
 
 }
@@ -8,16 +8,17 @@
 #about_us{
     display: flex;
     flex-direction: column;
-    flex-basis: 50%;
+    flex-basis: 60%;
     gap: 50px;
     margin-top: 5%;
-    /* border: 1px solid; */
 }
-#about_us > h1,
-#about_us > h1 > span{
-    font-size: clamp(25px, 12vw, 3.125rem);
-    line-height: 50px;
+.section-title,
+.section-title > span{
+    font-size: clamp(25px, 8vw, 3.123rem);
+    line-height: 1.2;
+    letter-spacing: 1px;
 }
+
 
 #about_us #about_description{
     display: flex;
@@ -27,27 +28,100 @@
     font-weight: 500;
 }
 
-#about_us #cta_info_about{
-    max-width: 80%;
-    height: 133px;
-    background-color: #D9D9D9;
-    border-radius: 20px;
-}
 
-#sobre #about-gallery{
+.benefits-container{
     display: flex;
-    flex-basis: 50%;
-    border: 1px solid;
-    margin-top: 5%;
+    width: 580px;
+    /* border: 1.5px solid #173836; */
+    border-radius: 20px;
+    padding: 15px 0px;
+    gap: 10px;
+    box-shadow: 0px 0px 5px 0.1px #17383664;
     
 }
 
-#about_gallery .side1 div,
-#about_gallery .side2 div{
-
-    background-color: #D9D9D9;
-
+.benefit {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;
 }
+
+.benefit:last-child {
+    border-right: none;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgba(48, 118, 113, 0.16);
+    border-radius: 50%;
+}
+
+.icon i {
+    font-size: 20px;
+    color: #2E535A;
+}
+
+.benefit h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #173836;
+}
+
+
+#sobre #about_gallery{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis:40%;
+    min-height: 100%;
+    gap: 30px;
+    margin-top: 5%;
+}
+#about_gallery .side1 .about-img-circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+#about_gallery .side1 .about-img1{
+    height: 294px;
+    width: 210px;
+    border-radius: 20px;
+}
+
+.side1,.side2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+}
+.side2{
+    gap: 30px
+}
+.side1{
+    margin-top: 100px;
+    gap: 40px
+}
+
+.side2 .about-img1{
+    height: 316px;
+    width: 232px;
+    border-radius: 20px;
+}
+
+.side2 .about-img2{
+    height: 265px;
+    width: 232px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+
 
 
 
