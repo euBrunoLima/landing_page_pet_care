@@ -20,6 +20,10 @@ section{
     padding: 28px 4.5%;
 }
 
+img{
+    object-fit: cover;
+}
+
 .section-title{
     font-family: 'ADLaM Display';
     color: #173836;
