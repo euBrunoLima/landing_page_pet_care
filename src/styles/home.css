@@ -119,10 +119,27 @@
     height: 45px;
     filter: drop-shadow(1px 1px 8px  rgba(0, 0, 0, 0.21));
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
+
 
 }
+
+#cta .social-media-buttons a:nth-child(1):hover img{
+    content: url('../images/home-image/facebook-light.png');
+    transform: scale(1.1);
+}
+#cta .social-media-buttons a:nth-child(2):hover img{
+    content: url('../images/home-image/instagram-light.png');
+    transform: scale(1.1); 
+}
+#cta .social-media-buttons a:nth-child(3):hover img{
+    content: url('../images/home-image/whatsapp-light.png');
+    transform: scale(1.1);
+}
+
 #cta .social-media-buttons a{
     padding: 0px;
+
 }
 
 
