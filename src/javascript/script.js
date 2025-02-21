@@ -10,9 +10,32 @@ function showMenu(){
     btn_mobile_header.classList.toggle('active');
     login_mobile.classList.toggle('active');
 
-    
-
-
 }
 
-console.log(document.querySelectorAll('#cta .title span').clientHeight)
+console.log(showMenu())
+
+let title = document.querySelector('#cta .title');
+const originalText = title.innerHTML;
+const originalFontSize = window.getComputedStyle(title).fontSize;
+const pawIcon = window.getComputedStyle(document.querySelector('.paw-icon')).all;
+
+
+
+function verificarLargura(){
+    if (window.innerWidth >= 450 && window.innerWidth <= 630) {
+     title.innerHTML = "Nós Cuidamos <br> Dos <br> <span>Seus Pets</span>" +
+     "<img class='paw-icon' src='src/images/home-image/paw-icone.png' alt=''>";
+     title.style.fontSize = '3.2rem';
+    }
+    else{
+        title.innerHTML = originalText;
+        title.style.fontSize = originalFontSize;
+        
+
+    }
+     
+}
+
+verificarLargura()
+
+window.addEventListener('resize', verificarLargura)
