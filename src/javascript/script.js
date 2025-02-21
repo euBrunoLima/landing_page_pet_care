@@ -12,7 +12,6 @@ function showMenu(){
 
 }
 
-console.log(showMenu())
 
 let title = document.querySelector('#cta .title');
 const originalText = title.innerHTML;
