@@ -24,7 +24,10 @@ function verificarLargura(){
     if (window.innerWidth >= 450 && window.innerWidth <= 630) {
      title.innerHTML = "Nós Cuidamos <br> Dos <br> <span>Seus Pets</span>" +
      "<img class='paw-icon' src='src/images/home-image/paw-icone.png' alt=''>";
-     title.style.fontSize = '3.2rem';
+     title.style.fontSize = '3.3rem';
+    }else if(window.innerWidth < 450){
+        title.style.fontSize = 'font-size: clamp(25px, 12vw, 4rem);'
+        title.innerHTML = originalText
     }
     else{
         title.innerHTML = originalText;
