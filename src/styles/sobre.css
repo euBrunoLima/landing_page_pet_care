@@ -14,8 +14,8 @@
     padding-right: 30px;
 }
 
-.section-title,
-.section-title > span{
+#sobre .section-title,
+#sobre .section-title > span{
     font-size: clamp(25px, 8.5vw, 3rem);
     line-height: 1.2;
     letter-spacing: 1px;
