@@ -1,0 +1,163 @@
+#servicos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    gap: 21rem;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+#servicos a{
+    margin-top: -18.5rem;
+    display: inline-block;
+    text-decoration: underline;
+    text-align: center;
+    color: #F5A52C;
+    font-weight: 700;
+}
+#servicos a:hover{
+    color: #c98725;
+}
+
+#servicos .services-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#servicos .services-header p{
+    max-width: 697px;
+}
+
+.content-services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content-services .service-card{
+    padding: 24px 20px;
+    height: 255px;
+    flex-basis: 225px;
+    width: 225px;
+    max-width: 280px; 
+    background-color: #fff;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-services .service-card:hover{
+    background: linear-gradient(45deg, #FFBD2F 10%, #FFDB77 100%);
+    box-shadow: 2px 2px 9px rgba(255, 165, 0, 0.35);
+}
+.content-services .service-card:hover h2,
+.content-services .service-card:hover p{
+    color: #fff;
+}
+.content-services .service-card img{
+    height: 60px;
+    width: 60px;
+}
+.content-services .service-card h2{
+    font-size: 1.25rem;
+    color: #173836;
+
+}
+.content-services .service-card p{
+    width: 181px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #173836;
+    margin-top: 12px;
+}
+
+.paw-image{
+    height: 213.44px;
+    width: 192.85px;
+    position: absolute;
+    left: 10vh;
+    top: 137px;
+    filter: opacity(0.8);
+
+}
+.cat-image{
+    height: 326.89px;
+    width: 300px;
+    position: absolute;
+    right: -86px;
+    top: 100px;
+    transform: rotate(-60deg);
+}
+    
+
+@media screen and (max-width: 1056px) {
+    .paw-image{
+        top: 175px;
+    }
+    
+    .cat-image{
+        height: 262.89px;
+        width: 277px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 774px){
+    .cat-image{
+        top: 160px;
+       
+    }
+
+    .paw-image{
+        left: 20px;
+    }
+} 
+
+@media screen and (max-width: 578px) {
+    .paw-image{
+        top: 225px;
+        left: 0px;
+       
+    }
+    .cat-image{
+        top: 204px;
+    }
+
+    .content-services{
+        margin-top: 80px;
+    }
+
+}
+
+@media screen and (max-width:518px){
+    .content-services .service-card{
+        flex-grow: 1;
+    }
+    .paw-image{
+        top: 312px;
+    }
+}
+
+@media screen and (max-width: 451px){
+    .paw-image{
+        top: 344px;
+        left: -58px;
+    }
+
+    .cat-image{
+        height: 262.89px;
+        width: 262px;
+        right: -75px;
+    }
+}
+
