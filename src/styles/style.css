@@ -2,6 +2,7 @@
 @import url(home.css);
 @import url(sobre.css);
 @import url(cta_page.css);
+@import url(servicos.css);
 
 *{
     padding: 0;
@@ -10,13 +11,16 @@
     font-family:"Quicksand", sans-serif;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FFFEFC;
 }
 
 section{
     min-height: 100dvh;
-    min-width: 100%;
+    width: 100%;
     padding: 28px 4.5%;
 }
 
@@ -26,11 +30,20 @@ img{
 
 .section-title{
     font-family: 'ADLaM Display';
+    font-size: clamp(1.3rem, 1.75rem, 2rem);
     color: #173836;
 }
 .section-title > span{
     font-family: 'ADLaM Display';
+    font-size: clamp(1.3rem, 1.75rem, 1.9rem);
     color: #FDC731;
+}
+
+.section-sub-title{
+    font-family:"Quicksand", sans-serif;
+    font-size: 1rem;
+    color: #317773;
+
 }
 
 .btn-default{
@@ -41,10 +54,5 @@ img{
     box-shadow: 1px 1px 8px  rgba(0, 0, 0, 0.21);
     cursor: pointer;
     
-}
-.line-home{
-    height: 50px;
-    width: 100%;
-    background-color: #317773;
 }
 
