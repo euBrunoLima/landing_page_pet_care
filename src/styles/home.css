@@ -14,6 +14,7 @@
     flex-direction: column;
     gap: 32px;
     margin-top: 5%;
+    /* margin-top: 10vh; */
     flex-basis: 58%;
     
 }
@@ -45,9 +46,7 @@
 
 #cta .description{
     max-width: 75%;
-    font-size: 1.1rem;
     font-size: clamp(0.8rem, 8vw, 1.1rem);
-
     font-weight: 500;
 }
 
@@ -348,8 +347,9 @@
     
 }
 @media screen and (max-width: 600px){
-    .title img{
-        display: none;
+    .title .paw-icon{
+        margin-left: 14px;
+        margin-bottom: 9px;
     }
 }
 
@@ -363,7 +363,7 @@
         max-width: 80%;
         
     }
-    #cta .title img:first-child{
+    #cta .title .paw-icon{
         display: none;
     }
     #cta .description{
