@@ -3,6 +3,7 @@
 @import url(sobre.css);
 @import url(cta_page.css);
 @import url(servicos.css);
+@import url(planos.css);
 
 *{
     padding: 0;
@@ -24,6 +25,18 @@ section{
     padding: 28px 4.5%;
 }
 
+ul li{
+    list-style: none;
+}
+
+@media screen and (min-width: 1500px){
+    .content-main{
+
+        width: 1519px;
+        margin: 0 auto;
+    }
+    
+}
 img{
     object-fit: cover;
 }
