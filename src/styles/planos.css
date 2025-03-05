@@ -1,0 +1,168 @@
+#planos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    gap: 10rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#planos .planos-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+}
+
+#planos .planos-header p{
+    max-width: 697px;
+}
+
+#planos .content-planos{
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    
+}
+.content-planos::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.plano-amigo,
+.plano-companheiro,
+.plano-vipet{
+    padding: 30px 28px 18px 28px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+    flex-shrink: 0;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.card-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.preco{
+    margin-bottom: 34px;
+}
+
+.plano-beneficios{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.plano-descricao{
+    font-size: 14px;
+    font-weight: 550;
+}
+.button{
+    height: 45px;
+    width: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 18px;
+    
+}
+.content-planos .plano-amigo{
+    min-height: 28.125rem;
+    width: 303px;
+    border-top: 10px solid  #5A9BD5;
+
+}
+.plano-amigo  h1{
+    font-size: 1.5rem;
+    color: #254871;
+    font-weight: 700;
+}
+
+.plano-amigo span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #3C77BB;
+}
+
+.plano-amigo a:last-child {
+    background-color: #5A9BD5;
+}
+
+.content-planos .plano-companheiro{
+    min-height: 30rem;
+    width: 303px;
+    border-top: 10px solid #3c8c88;
+}
+
+.plano-companheiro h1{
+    font-size: 1.5rem;
+    color: #173836;
+}
+
+.plano-companheiro span{
+    font-size: 22px;
+    font-weight: 700;
+    color: #30716d;
+}
+
+.plano-companheiro a:last-child {
+    background-color: #317773;
+    
+}
+.content-planos .plano-vipet{
+    min-height: 32.5rem;
+    width: 303px;
+    border-top: 10px solid #F5A52C;
+    border-bottom: 5px solid #F5A52C;
+}
+
+.plano-vipet h1{
+    font-size: 1.8rem;
+    color: #614212;
+}
+
+.plano-vipet span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F5A52C;
+}
+
+.plano-vipet a:last-child {
+    background-color: #F5A52C;
+    
+}
+
+@media screen and (max-width: 1090px) {
+
+    #planos .content-planos{
+        justify-content: flex-start;
+        
+    }
+    #planos .content-planos div:first-child{
+        margin-left: 1dvh;
+    }
+    #planos .content-planos div:last-child{
+        margin-right: 1dvh;
+    }
+    
+}
