@@ -40,4 +40,72 @@ function verificarLargura(){
 
 verificarLargura()
 
+
 window.addEventListener('resize', verificarLargura)
+
+document.querySelector(".content-planos").addEventListener("wheel", function(event) {
+
+    if (event.deltaY !== 0 && !event.ctrlKey){
+    event.preventDefault();
+    this.scrollLeft += event.deltaY;
+    }
+});
+
+
+const itens = document.querySelectorAll("#nav_list_mobile .nav-item")
+const link = document.querySelectorAll("nav ul li")
+
+link.forEach(item => {
+    item.addEventListener('click', () => {
+        link.forEach(i => i.classList.remove('active')); // Remove a classe 'active' de todos os itens
+        item.classList.add('active'); // Adiciona a classe 'active' ao item clicado
+    });
+});
+
+
+itens.forEach(item =>{
+    item.addEventListener('click', () =>{
+        mobile_menu.classList.toggle('active')
+        hamburguer_menu.classList.toggle('active');
+        
+    })
+})
+
+
+// const headerHeight = document.querySelector("#header").clientHeight; // Altura do cabeçalho fixo
+
+document.querySelectorAll("#nav_list_mobile .nav-item a").forEach(link => {
+    link.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const id = link.getAttribute("href").substring(1);
+        const section = document.getElementById(id);
+
+        if (section) {
+            const topo = section.getBoundingClientRect().top + window.scrollY - 312
+
+            window.scrollTo({ top: topo, behavior: "smooth" });
+        }
+    });
+});
+
+
+const headerHeight = document.querySelector("#header").clientHeight;
+
+document.querySelectorAll("#header  #menu_header  .nav-item  a").forEach(link => {
+    link.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const id = link.getAttribute("href").substring(1);
+        const section = document.getElementById(id);
+
+        if (section) {
+            const topo = section.getBoundingClientRect().top + window.scrollY - headerHeight
+
+            window.scrollTo({ top: topo, behavior: "smooth" });
+        }
+    });
+});
+
+
+
