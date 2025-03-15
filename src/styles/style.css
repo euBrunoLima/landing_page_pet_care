@@ -4,6 +4,7 @@
 @import url(cta_page.css);
 @import url(servicos.css);
 @import url(planos.css);
+@import url(produtos.css);
 
 *{
     padding: 0;
@@ -15,15 +16,26 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+html::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-color: #FFFEFC;
+   
 }
 
 section{
     min-height: 100dvh;
     width: 100%;
     padding: 28px 4.5%;
+}
+section *{
+    transition: all 0.3s ease;
 }
 
 ul li{
@@ -32,8 +44,7 @@ ul li{
 
 @media screen and (min-width: 1500px){
     .content-main{
-
-        width: 1519px;
+        width: 1536px;
         margin: 0 auto;
     }
     
