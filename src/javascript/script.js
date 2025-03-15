@@ -32,11 +32,10 @@ function verificarLargura(){
     else{
         title.innerHTML = originalText;
         title.style.fontSize = originalFontSize;
-        
-
     }
      
 }
+
 
 verificarLargura()
 
@@ -44,10 +43,19 @@ verificarLargura()
 window.addEventListener('resize', verificarLargura)
 
 document.querySelector(".content-planos").addEventListener("wheel", function(event) {
+    if (window.innerWidth <= 1080) {
+        if (event.deltaY !== 0 && !event.ctrlKey) {
+            const maxScrollLeft = this.scrollWidth - this.clientWidth;
+            const currentScrollLeft = this.scrollLeft;
 
-    if (event.deltaY !== 0 && !event.ctrlKey){
-    event.preventDefault();
-    this.scrollLeft += event.deltaY;
+            // Verifica se está no início ou no fim do scroll horizontal
+            if ((currentScrollLeft === 0 && event.deltaY < 0) || (currentScrollLeft === maxScrollLeft && event.deltaY > 0)) {
+                return ;
+            }
+
+            event.preventDefault();
+            this.scrollLeft += event.deltaY;
+        }
     }
 });
 
