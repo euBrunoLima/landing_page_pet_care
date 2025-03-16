@@ -12,6 +12,8 @@ function showMenu(){
 
 }
 
+/*------------------------------------------------------------------------- */
+//Codigo para responsividade do titulo da seção cta
 
 let title = document.querySelector('#cta .title');
 const originalText = title.innerHTML;
@@ -39,6 +41,8 @@ function verificarLargura(){
 
 verificarLargura()
 
+/*------------------------------------------------------------------------- */
+//Codigo para gerar scroll com o mouse na seção de planos
 
 window.addEventListener('resize', verificarLargura)
 
@@ -59,7 +63,8 @@ document.querySelector(".content-planos").addEventListener("wheel", function(eve
     }
 });
 
-
+/*------------------------------------------------------------------------- */
+//Codigo para gerar o underline no menu de navegação
 const itens = document.querySelectorAll("#nav_list_mobile .nav-item")
 const link = document.querySelectorAll("nav ul li")
 
@@ -80,8 +85,9 @@ itens.forEach(item =>{
 })
 
 
-// const headerHeight = document.querySelector("#header").clientHeight; // Altura do cabeçalho fixo
+/*------------------------------------------------------------------------- */
 
+//Codigo para melhorar a navegação entre as seções quando o menu mobile estiver aberto
 document.querySelectorAll("#nav_list_mobile .nav-item a").forEach(link => {
     link.addEventListener("click", (event) => {
         event.preventDefault();
@@ -97,7 +103,7 @@ document.querySelectorAll("#nav_list_mobile .nav-item a").forEach(link => {
     });
 });
 
-
+//Codigo para melhorar a navegação entre as seções quando o menu desktop estiver aberto
 const headerHeight = document.querySelector("#header").clientHeight;
 
 document.querySelectorAll("#header  #menu_header  .nav-item  a").forEach(link => {
