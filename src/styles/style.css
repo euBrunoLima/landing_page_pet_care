@@ -68,6 +68,7 @@ img{
     font-family:"Quicksand", sans-serif;
     font-size: 1rem;
     color: #317773;
+    width: 100%;
 
 }
 
@@ -80,4 +81,5 @@ img{
     cursor: pointer;
     
 }
+
 
