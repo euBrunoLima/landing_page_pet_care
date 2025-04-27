@@ -162,7 +162,7 @@
 .under-produtos-content{
     position: relative;
     width: 100%;
-    margin: 35vh 0px;
+    margin: min(15rem, 200px) 0;
     border-bottom: 5px solid #000;
 }
 
