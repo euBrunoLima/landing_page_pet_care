@@ -327,7 +327,7 @@
             <div class="planos-header">
                 <h2 class="section-sub-title">Nossos Planos</h2>
                 <h1 class="section-title">
-                   Planos feitos Para Você e <span>Os Seu Pets</span>
+                   Planos feitos Para Você e <span>O Seu Pet</span>
                 </h1>
                 <p>
                     Oferecemos tudo o que seu pet precisa: cuidados, conforto e muito amor,
@@ -631,10 +631,104 @@
         </div>
 
         <section id="contato">
+            <div class="contato-header">
+                <h1 class="section-title">
+                    Contate<span>-nos</span>
+                </h1>
+            </div>
 
+            <div class="contato-container">
+                <div class="contato-form">
+                    <p>
+                        Entre em contato conosco para agendar um horário, tirar dúvidas ou fazer sugestões. 
+                        Estamos aqui para ajudar você e seu pet!
+                    </p>
+
+                    <form preventDefault>
+
+                        <div class="input-inline">
+                            <div class="input-info">
+                                <label for="name" >Seu Nome*</label>
+                                <input type="text" id="name" name="name" placeholder="Ex. Bruno Lima" required >
+                            </div>
+    
+                            <div class="input-info">
+                                <label for="email" >Email*</label>
+                                <input type="email" id="email" name="email" placeholder="Ex. exemplo@gmail.com" required >
+                            </div>
+                        </div>
+
+                        <div class="input-info">
+                            <label for="assunto">Assunto*</label>
+                            <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required >
+                        </div>
+
+                        <div class="input-info">
+                            <label for="mensagem">Sua Mensagem*</label>
+                            <textarea name="mensagem" id="mensagem" placeholder="Digite aqui...""></textarea>
+                        </div>
+                        
+                        <button class="btn-form" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="contato-side-container">
+                    <div class="contato-info">
+                        <div class="endereco">
+                            <h2>Endereço</h2>
+                            <p>Pet Care Rua Feliz</p>
+                            <p>Avenida dos Animais, 1234 – Jardim Pet, SP</p>
+                        </div>
+                    </div>
+                    <div class="contato-info">
+                        <h2>Contato</h2>
+                        <div class="contatos-meios">
+                            <p>Telefone: (11) 3456-7890</p>
+                            <p>E-mail: contato@petcarerf.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contato-info">
+                        <h2>Horário</h2>
+                        <div class="horarios">
+                            <p>Segunda a Sexta: 09:00 – 17:00</p>
+                            <p>Sábado: 09:00 – 14:00</p>
+                            <p>Domingo: Fechado</p>
+                        </div>
+                    </div>
+
+                    <div class="contato-social-midia">
+                        <h2>Fique Conectado</h2>
+                        <div class="img-midia">
+                            <img src="./src/images/contato-image/facebook.png" alt="icon-facebook">
+                            <img src="./src/images/contato-image/instagram.png" alt="icon-instagram">
+                            <img src="./src/images/contato-image/tiktok.png" alt="icon-tiktok">
+                            <img src="./src/images/contato-image/twitter.png" alt="icon-twitter">
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4547005638497!2d-46.65639170447938!3d-23.5880203706728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce596942c1df0b%3A0xc715fbb0a1ea2faa!2sParque%20Ibirapuera%20-%20Port%C3%B5es%201%20e%202!5e0!3m2!1spt-BR!2sbr!4v1745738825680!5m2!1spt-BR!2sbr" 
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        <img class="img-contato" src="./src/images/services-image/paw-group.png" alt="pata-cachorro">
         </section>
 
     </main>
+
+    <footer>
+
+    </footer>
 
     
    <script src="src/javascript/script.js"></script>
