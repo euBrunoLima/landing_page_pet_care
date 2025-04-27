@@ -5,7 +5,7 @@
 @import url(servicos.css);
 @import url(planos.css);
 @import url(produtos.css);
-
+@import url(contato.css);
 *{
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@ section{
     padding: 28px 4.5%;
 }
 section *{
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 ul li{
@@ -59,7 +59,7 @@ img{
 }
 .section-title > span{
     font-family: 'ADLaM Display';
-    font-size: clamp(1.3rem, 1.75rem, 1.9rem);
+    font-size: clamp(1.3rem, 1.75rem, 2rem);
     color: #FDC731;
 }
 
