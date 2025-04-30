@@ -275,7 +275,6 @@
     }
     .cta-under-produto-info h1{
         line-height: normal;
-        /* font-size: 1.4rem; */
     }
     .cta-under-produto-info p{
         font-size: 0.9rem;
@@ -321,18 +320,5 @@
     }
     .under-produto-img-side{
         display: none;
-    }
-   
-    /* .under-produto-bone {
-        right: 176px;
-        top: 125px;
-        position: absolute;
-    }
-    .cta-under-produto-info{
-        justify-content: space-between;
-        padding: 15px 0px;
-    }
-    .cta-under-produto-info h1{
-        margin: 0px 0px -18px 0px;
-    } */
+    }  
 }
