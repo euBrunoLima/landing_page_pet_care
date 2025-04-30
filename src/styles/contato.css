@@ -261,4 +261,17 @@ form .input-info textarea#mensagem:focus{
    
     
 }
+
+@media screen and (max-width: 510px){
+    #contato .contato-header >h1,
+    .contato-container .contato-form > p {
+        text-align: start;
+    }
+
+    .mapa{
+        width: 100%;
+        margin: 4rem 0px;
+    }
+    
+}
     
