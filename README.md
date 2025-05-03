@@ -73,11 +73,9 @@ O objetivo deste projeto é apresentar os serviços, diferenciais e informaçõe
 1. Clone o repositório:
    
     ```bash
-    git clone https://github.com/seu-usuario/landing_page_petcare.git
+    https://github.com/euBrunoLima/landing_page_pet_care.git
 2. Navegue até a pasta do projeto e abra o arquivo index.html no navegador.
    
-
-
 
 ## 📄 Licença
 
