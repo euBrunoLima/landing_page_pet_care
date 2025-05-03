@@ -7,6 +7,7 @@
 @import url(produtos.css);
 @import url(contato.css);
 @import url(footer.css);
+@import url(animation.css);
 *{
     padding: 0;
     margin: 0;
@@ -47,6 +48,12 @@ ul li{
     .content-main{
         width: 1536px;
         margin: 0 auto;
+    }
+    section{
+        min-height: 100%;
+    }
+    footer .footer-info{
+        min-height: 100%;
     }
 }   
 img{
