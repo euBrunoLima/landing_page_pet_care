@@ -293,31 +293,28 @@
     filter: opacity(0.6);
 
 }
-
-
-/* @media screen and (max-height: 1300px) and (max-width: 1250px) {
+@media screen and (min-height: 1024px ) and (min-width: 760px){
     #home{
-        min-height: 100%;
-        margin-bottom: 50px;
+        min-height: 900px;
+        align-items: center;
+        margin-top: 0px;
     }
-   
-    
-} */
+
+}
 
 @media screen and (min-height: 800px ) and (min-width: 1280px){
     #home{
         min-height: 770px;
     }
 
-    
 }
 
 @media screen and (min-height: 900px ){
-    #home{
+    /* #home{
         min-height: 750px;
         align-items: center;
         margin-top: 0px;
-    }
+    } */
 
     #banner{
         overflow: visible;

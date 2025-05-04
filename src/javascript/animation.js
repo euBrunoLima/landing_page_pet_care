@@ -20,21 +20,20 @@ function animateNumber(element, start, end, duration) {
   const lastH2 = document.querySelector('#info_box > div:last-child > h2');
   
   animateNumber(firstH2, 0, 200, 2000);
-  animateNumber(lastH2, 0, 5000, 2500);
+  animateNumber(lastH2, 0, 5000, 2000);
 
 ScrollReveal().reveal('.section-title', {
     duration: 1000,
     distance: '50px',
     origin: 'left',
     reset: false,
-    delay: 100,
 });
 ScrollReveal().reveal('.section-sub-title', {
   duration: 1000,
   distance: '50px',
   origin: 'top',
   reset: false,
-  delay: 200,
+  delay: 100,
 });
 
 ScrollReveal().reveal('section > div:first-child p:last-child', {

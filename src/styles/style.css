@@ -28,6 +28,7 @@ html::-webkit-scrollbar {
 
 body{
     background-color: #FFFEFC;
+    overflow-x: hidden;
    
 }
 
@@ -55,7 +56,12 @@ ul li{
     footer .footer-info{
         min-height: 100%;
     }
-}   
+}
+@media screen and (min-height: 800px){
+    section{
+        min-height: 100%;
+    }  
+}
 img{
     object-fit: cover;
 }

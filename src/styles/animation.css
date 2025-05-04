@@ -101,9 +101,9 @@
       transform: scale(0) rotate(0);
     }
 }
-  
+
 #home #cta .title,
-#home #cta .title > span,
+/* #home #cta .title > span, */
 #home #cta .title > img,
 #home #cta .title > .paw-icon,
 #home #cta .description,
@@ -127,30 +127,28 @@ header{
 #home #cta .title {
     animation: toUp .6s 300ms ease-in-out forwards;
 }
-#home #cta .title > span {
-    animation: toUp .6s 300ms ease-in-out forwards;
-}
+
 #home #cta .title > .paw-icon{
     animation: slideLeftToLeft .6s 900ms ease-in-out forwards;
 }
 
 #home #cta .description{
-    animation: toUp .6s 1000ms ease-in-out forwards;
+    animation: toUp .6s 800ms ease-in-out forwards;
 }
 #home #cta #cta_buttons > a:first-child{
-    animation: fadeIn .6s 1600ms ease-in-out forwards;
+    animation: fadeIn .6s 1000ms ease-in-out forwards;
 }
 #home #cta #cta_buttons > a:last-child{
-    animation: fadeIn .6s 1800ms ease-in-out forwards;
+    animation: fadeIn .6s 1200ms ease-in-out forwards;
 }
 #home #cta .social-media-buttons a{
-    animation: fadeIn .6s 2000ms ease forwards;
+    animation: fadeIn .6s 800ms ease forwards;
 }
 #home #cta .social-media-buttons a:nth-child(2){
-    animation: fadeIn .6s 2200ms ease forwards;
+    animation: fadeIn .6s 1000ms ease-in-out forwards;
 }
 #home #cta .social-media-buttons a:nth-child(3){
-    animation: fadeIn .6s 2400ms ease forwards;
+    animation: fadeIn .6s 1200ms ease-in-out forwards;
 }
 #home #info_box div:first-child{
     animation: fadeIn .6s 800ms ease-in-out forwards;
@@ -178,13 +176,13 @@ header{
     animation: bounceIn 0.5s 1000ms ease-in-out forwards;
 }
 #home .shape:not(.shape2){
-    animation: fadeIn 0.5s 300ms ease-in-out forwards;
+    animation: fadeIn 1s 300ms ease-in-out forwards;
 }
 #home .shape2{
-    animation: fadeIn 0.5s 500ms  ease-in-out forwards;
+    animation: fadeIn 1s 500ms  ease-in-out forwards;
 }
 #home #img-dog img:first-child{
-    animation: fadeIn 0.5s 800ms ease-in-out forwards;
+    animation: fadeIn 1s 800ms ease-in-out forwards;
 }
 #home #feedback_home{
     animation: toUp .6s 300ms ease-in-out forwards;
