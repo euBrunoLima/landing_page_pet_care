@@ -116,8 +116,7 @@
 #home  .paw-dog-banner1,
 #home  .paw-dog-banner3,
 #home #info_box div,
-#home #feedback_home,
-header{
+#home #feedback_home{
     opacity: 0;
 }
 

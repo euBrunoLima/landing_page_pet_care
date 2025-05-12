@@ -91,6 +91,14 @@ ScrollReveal().reveal('#about_gallery .side2 .about-img2',{
   delay: 200,
   reset: false,
 })
+
+ScrollReveal().reveal('#about_us .benefits-container',{
+  duration: 1000,
+  distance: '50px',
+  origin: 'bottom',
+  delay: 200,
+  reset: false,
+})
 ScrollReveal().reveal('.content-services .service-card:first-child',{
     duration: 1000, 
     opacity: 0,    
@@ -134,6 +142,35 @@ ScrollReveal().reveal('#servicos .paw-image', {
   easing: 'ease-in-out',
   reset: false
 });
+
+ScrollReveal().reveal('#servicos a:last-child',{
+    duration: 1000,
+    distance: '50px',
+    origin: 'bottom',
+    delay: 200,
+    reset: false,
+});
+
+ScrollReveal().reveal('#planos .content-planos > div:first-child',{
+    duration: 1000, 
+    opacity: 0,    
+    distance: '0px', 
+    reset: false,
+})
+ScrollReveal().reveal('#planos .content-planos > div:nth-child(2)',{
+    duration: 1000, 
+    opacity: 0,    
+    distance: '0px', 
+    reset: false,
+    delay: 50,
+});
+// ScrollReveal().reveal('#planos .content-planos > div:nth-child(3)',{
+//     duration: 1000, 
+//     opacity: 0,    
+//     distance: '0px', 
+//     reset: false,
+//     delay: 100
+// }); 
 
 ScrollReveal().reveal('.under-services-content',{
   duration: 1000, 
