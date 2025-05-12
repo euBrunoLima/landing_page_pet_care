@@ -1,0 +1,62 @@
+:root {
+  /* === Verde === */
+  --verde-0: #DEE8E5; /*fundo do footer */
+  --verde-1: rgba(168, 196, 191, 0.29); /* fundo de inputs e textarea (formulário) */
+  --verde-2: #A9C7C2; /* .cta-under-home (fundo) */
+  --verde-3: #3c8c88; /* borda superior do plano "companheiro" */
+  --verde-4: #317773; /* .line-home, header, feedback, plano companheiro, avaliação produto */
+  --verde-5: #30716d; /* subtítulo plano "companheiro" */
+  --verde-6: #2E535A; /* ícone dentro de .icon i */
+  --verde-7: #254871; /* título plano "amigo" */
+  --verde-8: #1e4a47; /* hover botão secundário */
+  --verde-9: #1E4644; /* textos, botões, fundo de contêiner e sombra do mapa (formulário) */
+  --verde-10: #173836; /* títulos, botões, sombra, textos serviços, sobre, etc. */
+  --verde-11: #0d1e1d; /* título .footer-section h3 */
+  --verde-12: #081313; /* sombra do contêiner lateral */
+
+  /* Verdes translúcidos */
+  --verde-translucido-1: #1e46442e; /* sombra interna dos inputs e textarea */
+  --verde-translucido-2: rgba(24, 55, 53, 0.489); /* placeholder inputs */
+
+  /*verdes footer*/
+  --verde-footer-1: #4caf50; /* cor do botão */
+  --verde-footer-2: #45a049; /* hover do botão */
+
+  /* === Azul === */
+  --azul-1: #A2D9F7; /* .under-service (fundo) */
+  --azul-2: #3C77BB; /* subtítulo do plano "amigo" */
+  --azul-3: #5A9BD5; /* fundo/botão do plano "amigo" */
+  --azul-4: #05002C; /* texto .under-info p */
+
+  /* === Amarelo/Laranja === */
+  --amarelo-1: #FFEB00; /* gradiente de texto (.title span) */
+  --amarelo-2: #FFD55F; /* .shape2 (forma decorativa) */
+  --amarelo-3: #FDC731; /* .under-produto, .shape, .section-title span */
+  --amarelo-4: #FFBD2F; /* hover do .service-card */
+  --amarelo-5: #FFDB77; /* hover do .service-card */
+  --amarelo-6: #F5A52C; /* botões, gradiente, plano vipet, .cadastrar */
+  --amarelo-7: #ECBA2E; /* botões e títulos (formulário) */
+  --amarelo-8: #c98725; /* hover link (#servicos a:hover) */
+
+  /* === Marrom === */
+  --marrom-1: #614212; /* título do plano "vipet" */
+
+  /* === Branco e variações === */
+  --branco-1: #ffffff; /* textos, fundo, imagens, botões, ícones */
+  --branco-2: #ffffff3f; /* translúcido no hover do menu */
+  --branco-3: #FFFEFC; /* fundo do body */
+
+  /* === Preto e sombras === */
+  --preto-1: #000000; /* bordas, sombras, textos */
+  --sombra-1: #17383664; /* sombra da caixa de feedback */
+  --sombra-2: #1738364f; /* separador dos benefícios */
+
+  /* === Cinza === */
+  --cinza-1: #ccc; /* bordas, inputs, hr */
+  --cinza-2: #c9c9c9; /* hover do menu */
+  --cinza-3: #666666; /* texto .footer-dev */
+
+  /* === Extras === */
+  --icone-bg: rgba(48, 118, 113, 0.16); /* fundo do .icon */
+  --card-top-bg: #FAFAFA; /* .card-top */
+}
