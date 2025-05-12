@@ -46,6 +46,7 @@ O objetivo deste projeto é apresentar os serviços, diferenciais e informaçõe
         ├── styles/
         │   ├── animation.css       # Estilos de animação
         │   ├── contato.css
+        |   |── cores.css            #variaveis para as cores 
         │   ├── cta_page.css
         │   ├── footer.css
         │   ├── header.css
