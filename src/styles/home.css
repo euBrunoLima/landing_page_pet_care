@@ -27,8 +27,8 @@
 }
 
 #cta .title span{ 
-    color: #F5A52C;
-    background: linear-gradient(90deg, #FFEB00, #FDC731);
+    color: var(--amarelo-6);
+    background: linear-gradient(90deg, var(--amarelo-1), var(--amarelo-3));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -67,7 +67,7 @@
 
 #cta_buttons a:first-child,
 .login .cadastrar{
-    background-color: #F5A52C;
+    background-color: var(--amarelo-6);
     transition: background .2s ease-in;
    
 }
@@ -80,7 +80,7 @@
 
 
 #cta_buttons a:last-child{
-    background-color: #173836;
+    background-color: var(--verde-10);
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
     text-underline-offset: 2px;
@@ -89,7 +89,7 @@
 }
 
 #cta_buttons a:last-child:hover{
-    background-color: #1e4a47;
+    background-color: var(--verde-8);
     box-shadow: none;
 }
 
@@ -103,7 +103,7 @@
 #cta #info_box h2{
     font-size: 1.875rem;
     font-weight: 700;
-    color: #173836;
+    color: var(--verde-10);
 
 }
 
@@ -150,12 +150,12 @@
     height: 800px;
     width: 800px;
     border-radius: 50%;
-    background-color: #FDC731;
+    background-color: var(--amarelo-3);
     z-index: 1;
 }
 
 #home .shape.shape2{
-    background-color: #FFD55F;
+    background-color: var(--amarelo-2);
     height: 700px;
     width: 700px;
     bottom: -186px;
@@ -174,10 +174,10 @@
     min-height: 135px;
     border-radius: 25px;
     padding: 14px;
-    background-color: #317773;
-    color: #fff;
+    background-color: var(--verde-4);
+    color: var(--branco-1);
     z-index: 6;
-    box-shadow: 2px 2px 10px #17383664;
+    box-shadow: 2px 2px 10px var(--sombra-1);
 }
 
 #feedback_home .comment-header{

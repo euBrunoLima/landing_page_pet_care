@@ -29,7 +29,7 @@
 }
 
 #contato .contato-container .contato-form p{
-    color: #317773;
+    color: var(--verde-4);
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@
 }
 form label{
     font-size: 0.95rem;
-    color: #1E4644;
+    color: var(--verde-9);
     font-weight: bold;
 }
 form input{
@@ -51,12 +51,12 @@ form input{
     border: none;
     outline: none;
     background-color: rgba(168, 196, 191, 0.29);
-    color: #1E4644;
+    color: var(--verde-9);
     font-weight: bold;
     transition: all 0.1s ease-in-out;
 }
 form input:focus{
-    box-shadow: inset 2px 2px 0px 0px #1e46442e;
+    box-shadow: inset 2px 2px 0px 0px var(--verde-9)2e;
 }
 
 form input::placeholder{
@@ -65,8 +65,8 @@ form input::placeholder{
 
 }
 form button.btn-form{
-    background-color: #ECBA2E;
-    color: #fff;
+    background-color: var(--amarelo-7);
+    color: var(--branco-1);
     width: 180px;
     font-weight: 700;
     font-size: 0.9rem;
@@ -79,7 +79,7 @@ form button.btn-form{
 }
 form button.btn-form:active{
     transform: translateY(4px);
-    box-shadow: 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px var(--preto-1);
 }
 
 .contato-form form .input-inline{
@@ -114,7 +114,7 @@ form button.btn-form:active{
 }
 
 form .input-info textarea#mensagem:focus{
-    box-shadow: inset 2px 2px 0px 0px #1e46442e;
+    box-shadow: inset 2px 2px 0px 0px var(--verde-9)2e;
 }
 
 
@@ -124,10 +124,10 @@ form .input-info textarea#mensagem:focus{
     max-width: 390px;
     height: 100%;
     gap: 40px;
-    background-color: #1E4644;
+    background-color: var(--verde-9);
     border-radius: 20px 100px 20px 20px;
     padding: 38px 27px 20px 27px;
-    box-shadow: 5px 5px 0px #081313;
+    box-shadow: 5px 5px 0px var(--verde-12);
 }
 .contato-info{
     display: flex;
@@ -142,12 +142,12 @@ form .input-info textarea#mensagem:focus{
     gap: 5px;
 }
 #contato .contato-container .contato-side-container p{
-    color: #fff;
+    color: var(--branco-1);
     font-weight: 500;
     font-size: 1rem;
 }
 #contato .contato-container .contato-side-container h2{
-    color: #ECBA2E;
+    color: var(--amarelo-7);
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -166,12 +166,12 @@ form .input-info textarea#mensagem:focus{
 }
 
 .mapa{
-    background-color: #1E4644;
+    background-color: var(--verde-9);
     width: 94%;
     margin: 4rem auto;
     height: 300px;
     border-radius: 20px;
-    box-shadow: 5px 5px 0px #1E4644;
+    box-shadow: 5px 5px 0px var(--verde-9);
 }
 
 .mapa > iframe{

@@ -1,6 +1,7 @@
 #sobre{
     display: flex;
     width: 100%;
+    margin-top: min(10dvh, 180px);
 }
 
 #about_us{
@@ -51,11 +52,10 @@
     display: flex;
     justify-content:  space-around;
     max-width: 500px;
-
     border-radius: 20px;
     padding: 15px 0px;
     gap: 10px;
-    box-shadow: 3px 3px 5px 0px #17383664
+    box-shadow: 3px 3px 5px 0px var(--sombra-1);
     
 }
 
@@ -75,7 +75,7 @@
     width: 1.3px;
     opacity: 0.3;
     height: 50%;
-    background-color:  #1738364f;/* Cor da linha */
+    background-color:  var(--sombra-2);/* Cor da linha */
 }
 
 .icon {
@@ -85,19 +85,19 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-    background: rgba(48, 118, 113, 0.16);
+    background: var(--icone-bg);
     border-radius: 50%;
 }
 
 .icon i {
     font-size: 20px;
-    color: #2E535A;
+    color: var(--verde-6);
 }
 
 .benefit h4 {
     font-size: 12px;
     font-weight: bold;
-    color: #173836;
+    color: var(--verde-10);
 }
 
 

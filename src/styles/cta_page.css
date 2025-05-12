@@ -2,16 +2,16 @@
 .line-home{
     height: 50px;
     width: 100%;
-    background-color: #317773;
+    background-color: var(--verde-4);
 }
 
-.cta-under-home{
+/* .cta-under-home{
     min-height: 200px;
     width: 87%;
     margin: min(10%, 196px) auto 50px auto;
     border-radius: 30px;
-    background-color: #A9C7C2;
-}
+    background-color: var(--verde-2);
+} */
 
 /* ***************************************************************************** */
 
@@ -30,8 +30,8 @@
     justify-content: start ;
     padding: 0px 5%;
     margin: 0 auto;
-    background-color: #A2D9F7;
-    box-shadow: 3px 2px 0px 1px black;
+    background-color: var(--azul-1);
+    box-shadow: 3px 2px 0px 1px var(--preto-1);
 
 }
 
@@ -45,12 +45,12 @@
 }
 
 .under-info h1{
-    color: #fff;
+    color: var(--branco-1);
     font-size: clamp(1.8rem, 4vw, 2rem);
 }
 
 .under-info p{
-    color: #05002C;
+    color: var(--azul-4);
     font-weight: 500;
     margin-top: 5px;
     font-size: clamp(1rem,2.5vw,1.1rem);
@@ -163,7 +163,7 @@
     position: relative;
     width: 100%;
     margin: min(15rem, 200px) 0;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid var(--preto-1);
 }
 
 .under-produtos-content .under-produto{
@@ -173,8 +173,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FDC731;
-    color: #fff;
+    background-color: var(--amarelo-3);
+    color: var(--branco-1);
 }
 
 .cta-under-produto-info {
@@ -189,14 +189,14 @@
 .cta-under-produto-info h1{
     font-size: clamp(1.2rem, 3vw, 2rem);
     font-weight: 700;
-    color: #000000;
+    color: var(--preto-1);
     position: relative;
     line-height: 0.5;
 }
 .cta-under-produto-info p{
     font-size: clamp(0.9rem, 2.5vw, 1.1rem);
     font-weight: 600;
-    color: #fff;
+    color: var(--branco-1);
     
 }
 .cta-under-produto-info .btn-under-produto{
@@ -204,16 +204,16 @@
     border-radius: 10px;
     border: none;
     padding: 10px;
-    color: #000000;
-    background-color: #FFF;
+    color: var(--preto-1)000;
+    background-color: var(--branco-1);
     font-weight: 700;
-    box-shadow: 3px 2px 0px 1px black;
+    box-shadow: 3px 2px 0px 1px var(--preto-1);
     cursor: pointer;
     transition: all 0.1s ease-in-out;
 }
 .btn-under-produto:active{
     transform: translateY(4px);
-    box-shadow: 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px var(--preto-1);
 
 }
 

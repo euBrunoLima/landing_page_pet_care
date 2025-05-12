@@ -23,7 +23,7 @@ footer{
   position: relative;
   width: 100%;
   min-height: 40vh;
-  background-color: #DEE8E5;
+  background-color: var(--verde-0);
   margin-top: 20rem;
   border-radius: 40px 40px 0px 0px;
   padding: 3rem 15rem 2rem 5rem;
@@ -39,7 +39,7 @@ footer{
   
   .footer-container .footer-section:nth-child(1) p{
     margin-bottom: 10px;
-    color: #173836;
+    color: var(--verde-10);
     font-weight: 500;
   }
 
@@ -51,12 +51,12 @@ footer{
   .footer-section a {
     text-decoration: none;
     display: inline-block;
-    color: #173836;
+    color: var(--verde-10);
     font-weight: 500;
   }
 
   .footer-section h3{
-    color: #0d1e1d;
+    color: var(--verde-11);
     margin-bottom: 10px;
   }
   
@@ -69,26 +69,26 @@ footer{
     width: 100%;
     max-width: 250px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cinza-1);
     border-radius: 4px;
   }
   
   .footer-section button {
     padding: 8px 16px;
-    background-color: #4caf50;
-    color: white;
+    background-color: var(--verde-footer-1);
+    color: var(--branco-1);
     border: none;
     border-radius: 4px;
   }
   
   .footer-section button:hover {
-    background-color: #45a049;
+    background-color: var(--verde-footer-2);
   }
   
   .footer hr {
     margin: 30px 0;
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid var(--cinza-1);
   }
   
   .footer-copy {
@@ -109,12 +109,12 @@ footer{
 .footer-dev {
     text-align: center;
     font-size: 0.8rem;
-    color: #666;
+    color: var(--cinza-3);
     margin-top: 5px;
   }
   
   .footer-dev a {
-    color: #4caf50;
+    color: var(--verde-footer-1);
     text-decoration: none;
     font-weight: bold;
   }

@@ -13,11 +13,11 @@
     display: inline-block;
     text-decoration: underline;
     text-align: center;
-    color: #F5A52C;
+    color: var(--amarelo-6);
     font-weight: 700;
 }
 #servicos a:hover{
-    color: #c98725;
+    color: var(--amarelo-8);
 }
 
 #servicos .services-header{
@@ -44,7 +44,7 @@
     flex-basis: 225px;
     width: 225px;
     max-width: 280px; 
-    background-color: #fff;
+    background-color: var(--branco-1);
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     display: flex;
@@ -56,12 +56,12 @@
 }
 
 .content-services .service-card:hover{
-    background: linear-gradient(45deg, #FFBD2F 10%, #FFDB77 100%);
+    background: linear-gradient(45deg, var(--amarelo-4) 10%, var(--amarelo-5) 100%);
     box-shadow: 2px 2px 9px rgba(255, 165, 0, 0.35);
 }
 .content-services .service-card:hover h2,
 .content-services .service-card:hover p{
-    color: #fff;
+    color: var(--branco-1);
 }
 .content-services .service-card img{
     height: 60px;
@@ -69,14 +69,14 @@
 }
 .content-services .service-card h2{
     font-size: 1.25rem;
-    color: #173836;
+    color: var(--verde-10);
 
 }
 .content-services .service-card p{
     width: 181px;
     font-size: 0.95rem;
     font-weight: 500;
-    color: #173836;
+    color: var(--verde-10);
     margin-top: 12px;
 }
 

@@ -5,7 +5,7 @@ header{
     width: 95%;
     height: auto;
     margin: 1.8vh auto 0vh auto;
-    background-color: #317773;
+    background-color: var(--verde-4);
     border-radius: 10px;
 }
 
@@ -41,13 +41,13 @@ header{
     gap: 18px;
 }
 .login > .cadastrar{
-    background-color: #F5A52C;
+    background-color: var(--amarelo-6);
     padding: 10px;
     border-radius: 10px;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: var(--branco-1);
     font-weight: 600;
     padding: 5px;
     transition: color .1s ease-in;
@@ -57,10 +57,10 @@ a{
     text-decoration: underline;
     text-decoration-thickness: 3px;
     text-underline-offset: 4px;
-    text-decoration-color: #F5A52C;
+    text-decoration-color: var(--amarelo-6);
 }
 .nav-item a:hover{
-    color: #c9c9c9;
+    color: var(--cinza-2);
 }
 
 
@@ -95,8 +95,8 @@ a{
     width: 100%;
     height: 3px;
     border-radius: 30px;
-    background-color: white;
-    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.249);
+    background-color: var(--branco-1);
+    box-shadow: 1px 1px 5px var(--branco-2);
     transition: 0.3s cubic-bezier(0.5, 0, 1, 1);
 }
 
@@ -164,7 +164,7 @@ a{
     }
 
     .login-mobile .cadastrar{
-        background-color: #F5A52C;
+        background-color: var(--amarelo-6);
         border-radius: 8px;
         padding: 10px;
     }

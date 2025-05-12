@@ -89,66 +89,66 @@
 .content-planos .plano-amigo{
     min-height: 28.125rem;
     width: 303px;
-    border-top: 10px solid  #5A9BD5;
+    border-top: 10px solid  var(--azul-3);
 
 }
 .plano-amigo  h1{
     font-size: 1.5rem;
-    color: #254871;
+    color: var(--verde-7);
     font-weight: 700;
 }
 
 .plano-amigo span{
     font-size: 22px;
     font-weight: 700;
-    color: #3C77BB;
+    color: var(--azul-2);
 }
 
 .plano-amigo a:last-child {
-    background-color: #5A9BD5;
+    background-color: var(--azul-3);
 }
 
 .content-planos .plano-companheiro{
     min-height: 30rem;
     width: 303px;
-    border-top: 10px solid #3c8c88;
+    border-top: 10px solid var(--verde-3);
 }
 
 .plano-companheiro h1{
     font-size: 1.5rem;
-    color: #173836;
+    color: var(--verde-10);
 }
 
 .plano-companheiro span{
     font-size: 22px;
     font-weight: 700;
-    color: #30716d;
+    color: var(--verde-5);
 }
 
 .plano-companheiro a:last-child {
-    background-color: #317773;
+    background-color: var(--verde-4);
     
 }
 .content-planos .plano-vipet{
     min-height: 32.5rem;
     width: 303px;
-    border-top: 10px solid #F5A52C;
-    border-bottom: 5px solid #F5A52C;
+    border-top: 10px solid var(--amarelo-6);
+    border-bottom: 5px solid var(--amarelo-6);
 }
 
 .plano-vipet h1{
     font-size: 1.8rem;
-    color: #614212;
+    color: var(--marrom-1);
 }
 
 .plano-vipet span{
     font-size: 24px;
     font-weight: 700;
-    color: #F5A52C;
+    color: var(--amarelo-6);
 }
 
 .plano-vipet a:last-child {
-    background-color: #F5A52C;
+    background-color: var(--amarelo-6);
     
 }
 
