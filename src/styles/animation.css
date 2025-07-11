@@ -121,7 +121,7 @@
 }
 
 header{
-    animation: toDown .6s 300ms ease-in-out forwards;
+    animation: toDown .6s 300ms ease-in-out;
 }
 #home #cta .title {
     animation: toUp .6s 300ms ease-in-out forwards;
