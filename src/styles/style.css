@@ -65,6 +65,15 @@ ul li{
     section#home > #cta{
         margin-top: 8.5%;
     }
+    #banner #img-dog img:first-child{
+        bottom: 50px;
+    }
+    #home .paw-dog-banner3{
+        display: none;
+    }
+    section#home{
+        margin-top: 1.8rem;
+    }
 }
 @media screen and (min-height: 800px){
     section{
